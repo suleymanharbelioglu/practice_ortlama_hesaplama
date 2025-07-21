@@ -4,6 +4,7 @@ class DataHelper {
    static List<String> _createDersHarfNotlari() {
     return ['AA', 'BA', 'BB', 'CB', 'CC', 'DC', 'DD', 'FD', 'FF'];
   }
+  
     static double _harfiNotaCevir(String harf) {
     switch (harf) {
       case 'AA':
@@ -29,8 +30,6 @@ class DataHelper {
     }
   }
   
-
-
   static List<DropdownMenuItem<double>> tumDersHarfleri() {
     return _createDersHarfNotlari()
         .map((e) => DropdownMenuItem<double>(

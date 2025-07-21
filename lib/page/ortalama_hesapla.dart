@@ -16,8 +16,8 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
   double secilen = 1;
   double secilenKredi = 1;
   String girilenDersAdi = 'Ders Adı Girilmemiş';
-  double krediDegeri = 1;
-  double notDegeri = 4;
+  // double krediDegeri = 1;
+  // double notDegeri = 4;
   var formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
           child: Text(
             'Ortalama Hesapla',
             style: TextStyle(
-              fontSize: 24,
+              fontSize: 32,
               fontWeight: FontWeight.w900,
               color: AppConstants.anaRenk,
             ),
